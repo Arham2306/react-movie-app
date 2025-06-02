@@ -8,20 +8,8 @@ function App() {
 
   return (
     <>
-      <div>
-        <p>Hello World</p>
-      </div>
-    
-      <Text display="Arham" />
+      <Home/>
     </>
-  )
-}
-
-function Text({display}) {
-  return (
-    <div>
-      <p>{display}</p>
-    </div>
   );
 }
 

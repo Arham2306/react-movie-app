@@ -1,11 +1,11 @@
-function MovieCard({ movie }) {
+function MovieCard({movie}) {
   
   function onFavouriteClick() {
     alert("Clicked")
   }
 
   return <div className="movie-card">
-    <div className="movie-poster">
+    <div className="movie-poster">x
       <img src={movie.url} alt={movie.title} />
       <div className="movie-overlay"></div>
       <button className="favourite-btn" onClick={onFavouriteClick}>
@@ -20,3 +20,5 @@ function MovieCard({ movie }) {
 
   </div>
 }
+
+export default MovieCard
